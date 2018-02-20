@@ -1,4 +1,7 @@
-def cs
+# 162 not counting puts
+# 166 counting puts
+
+def cs(s,o)
   r=''
   0.upto(s.length-1) do |i|
     j = s[i].ord
@@ -25,4 +28,4 @@ s = gets.strip
 puts "Enter an offset"
 o = gets.strip.to_i
 
-cs
+cs(s,o)

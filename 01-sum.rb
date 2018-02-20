@@ -1,3 +1,5 @@
+# 17 chars
+
 def s(a)
   a.reduce(&:+)
 end

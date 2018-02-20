@@ -1,3 +1,6 @@
+# 70 not counting 'puts'
+# 82 counting puts
+
 def r(u)
   c = rand(1..3)
   if u == c

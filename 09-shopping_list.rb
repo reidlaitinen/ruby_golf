@@ -1,4 +1,6 @@
-def list a
+# 62
+
+def l(a)
   i = 1
   l = {}
   a.map{|t| t.downcase}.uniq.sort.each { |s|
@@ -8,4 +10,4 @@ def list a
   l
 end
 
-puts list ['hello', 'Hello', 'aardvark', 'bungalow', 'king', 'geoff']
+puts l(['hello', 'Hello', 'aardvark', 'bungalow', 'king', 'geoff'])

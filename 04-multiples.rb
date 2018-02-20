@@ -1,3 +1,6 @@
+# 55, not counting 'puts'
+# 59, counting puts
+
 def m(n,m)
   o = []
   0.upto(m) do |i|

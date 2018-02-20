@@ -1,3 +1,5 @@
+# 62
+
 def m(a)
   n = []
   b = a.flatten.shuffle

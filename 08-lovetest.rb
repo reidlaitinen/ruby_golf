@@ -1,3 +1,5 @@
+# 100
+
 def lt(a,b)
   t = a.length + b.length
   c = 0

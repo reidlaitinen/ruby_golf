@@ -1,9 +1,12 @@
-string = "na na na na na na na na na na na na na na na na BATMAN"
-substring = "na"
-def count(string, substring)
-  string.scan(/(?=#{substring})/).count
+# 53
+
+def s(a,b,c=0)
+  d = c
+  if b.include? a
+    s(a, b.sub(a, ''), d + 1)
+  else
+    puts "#{d} occurences of '#{a}'."
+  end
 end
 
-count(string,"na")
-
-puts count(string, substring)
+s("hey", " 1 hey 4 4 hey 6 hey 8 hey whatever hey")
