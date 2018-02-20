@@ -1,5 +1,5 @@
-def sum(a)
-  return a.reduce(&:+)
+def s(a)
+  a.reduce(&:+)
 end
 
-puts(sum([1,2,3,4,5]))
+puts(s([1,2,3,4,5]))
